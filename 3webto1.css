@@ -1,0 +1,374 @@
+.s-head{
+	background-color: #0c9488;
+}
+.navbar{
+	color: white;
+}
+.sub-navbar{
+	background-color: #1e293b;
+	color: white;
+	padding-left: 10px;
+	display: block;
+	margin: 0;
+	gap: 0;
+	font-size: 0;
+}
+.sub-navbar>ul{
+	display: flex;
+	gap: 100px;
+}
+.sub-navbar>ul:last-child li>img{
+	height: 100%;
+}
+.this{
+	background-color: aliceblue;
+	text-align: right;
+	display: block;
+}
+.sub-navbar>ul:first-child li>ul>li:nth-child(2) a{
+	font-size: 18px;
+}
+.sub-navbar>ul:first-child li>ul:last-child li>ul{
+	display: flex;
+	font-size: 18px;
+	gap: 50px;
+	padding-top: 20px;
+}
+.sub-navbar>ul:first-child li>ul:last-child li>ul>li:first-child a{
+	background-color: #1d917c;
+	border-radius: 6px;
+}
+.sub-navbar>ul:first-child li>ul:last-child li>ul>li:last-child a{
+	background-color: #1e293b;
+	border: 1px solid #1d917c;
+	border-radius: 6px;
+}
+.sub-navbar>ul:first-child li>ul:last-child li>ul>li{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+.y{
+	text-align: center;
+}
+.x>ul>li:first-child a{
+	background-color: darkgreen;
+	height: 28px;
+	width: 180px;
+	color: white;
+	border-radius: 9px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 45px;
+	display: inline;
+}
+h3{
+	font-size: 20px;
+	display: inline-block;
+}
+ul>li{
+	list-style: none;
+}
+.body{
+	align-content: center;
+	align-tracks: center;
+	align-items: center;
+	box-align: center;
+	background-color: black;
+	margin : 0 0 0 0;
+}
+.mid {
+	align-content: center;
+	align-tracks: center;
+	align-items: center;
+	box-align: center;
+	width: 213vh;
+	border-radius: 10px;
+	border-spacing: 30px;
+}
+td{
+	border-radius: 10px;
+}
+.top, .middle, .w3spaces{
+	text-align: center;
+}
+.top, .bottom{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	column-gap: 1rem;
+}
+.html{
+	padding-top: 45px;
+	background-color: aliceblue;
+	width: 100%;
+}
+.html>ul, .css>ul, .javascript>ul, .python>ul, .sql>ul{
+	display: flex;
+	padding-left: 300px;
+}
+.html>ul:first-child li, .css>ul:first-child li, .javascript>ul:first-child li, .python>ul:first-child li, .sql>ul:first-child li{
+	padding-right: 100px;
+}
+.html>ul:first-child li>h2, .css>ul:first-child li>h2, .javascript>ul:first-child li>h2, .python>ul:first-child li>h2, .sql>ul:first-child li>h2{
+	padding-right: 50px;
+}
+.html>ul:first-child li>h3, .css>ul:first-child li>h3, .javascript>ul:first-child li>h3, .python>ul:first-child li>h3, .sql>ul:first-child li>h3{
+	padding-right: 30px;
+}
+.css{
+	padding-top: 45px;
+	background-color: khaki;
+	margin: 0 0 0 0;
+}
+.javascript{
+	padding-top: 45px;
+	color: white;
+	background-color: black;
+	margin: 0 0 0 0;
+}
+.python{
+	padding-top: 45px;
+	background-color: lightgrey;
+	margin: 0 0 0 0;
+}
+.sql{
+	padding-top: 45px;
+	background-color: lightskyblue;
+}
+.middle{
+	background-color: black;
+}
+.php{
+	column-span: 2;
+	padding-top: 45px;
+	background-color: pink;
+}
+.jquery{
+	column-span: 2;
+	padding-top: 45px;
+	background-color: khaki;
+}
+.java, .bootstrap{
+	column-span: 2;
+	padding-top: 45px;
+	background-color: lightgrey;
+}
+.cpp{
+	column-span: 2;
+	padding-top: 45px;
+	background-color: aliceblue;
+}
+.w3css{
+	column-span: 2;
+	padding-top: 45px;
+	background-color: lightskyblue;
+}
+.c, .machinelearning{
+	column-span: 2;
+	padding: 25px;
+	background-color: pink;
+}
+.csak{
+	column-span: 2;
+	padding:25px;
+	background-color: khaki;
+}
+.ai{
+	padding:25px;
+	background-color: aliceblue;
+}
+.r, .vue, .rwd, .cybersecurity, .pandas, .go, .datascience, .postgresql{
+	padding: 25px;
+	background-color: lightgrey;
+}
+.kotlin, .colors, .scipy, .typescript, .mysql, .graphics, .typingspeed{
+	padding: 25px;
+	background-color: aliceblue;
+}
+.nodejs, .xml, .svg, .git, .asp, .django, .howto, .excel{
+	padding: 25px;
+	background-color: lightskyblue;
+}
+.react, .sass, .canvas, .matplotlib, .angularjs, .mongodb, .codegame{
+	padding: 25px;
+	background-color: pink;
+}
+.json, .raspberrypi, .numpy, .appml, .statistics, .icons, .spaces, .dsa{
+	padding: 25px;
+	background-color: khaki;
+}
+div.html>ul:first-child li>ul>li:first-child a, div.css>ul:first-child li>ul>li:first-child a, div.javascript>ul:first-child li>ul>li:first-child a, div.python>ul:first-child li>ul>li:first-child a, div.sql>ul:first-child li>ul>li:first-child a, div.w3spaces>ul>li:last-child a, div.mylearning>ul>li:last-child a, div.premium>ul>li:last-child a{
+	background-color: forestgreen;
+	height: 28px;
+	width: 180px;
+	color: white;
+	border-radius: 29px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+div.html>ul:first-child li>ul>li:nth-child(2) a, div.javascript>ul:first-child li>ul>li:nth-child(2) a{
+	background-color: khaki;
+	height: 28px;
+	width: 180px;
+	color: black;
+	border-radius: 29px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+div.html>ul:first-child li>ul>li:nth-child(3) a, div.css>ul:first-child li>ul>li:nth-child(2) a, div.python>ul:first-child li>ul>li:nth-child(2) a, div.sql>ul:first-child li>ul>li:nth-child(2) a, .php>ul>li:last-child a, .jquery>ul>li:last-child a, .java>ul>li:last-child a, .cpp>ul>li:last-child a, .w3css>ul>li:last-child a, .bootstrap>ul>li:last-child a, .cogame>ul>li:last-child a{
+	background-color: black;
+	height: 28px;
+	width: 180px;
+	color: white;
+	border-radius: 29px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+div.html>ul:first-child li>ul>li:last-child a,  div.css>ul:first-child li>ul>li:last-child a, div.javascript>ul:first-child li>ul>li:last-child a, div.python>ul:first-child li>ul>li:last-child a, div.sql>ul:first-child li>ul>li:last-child a{
+	background-color: pink;;
+	height: 28px;
+	width: 180px;
+	color: black;
+	border-radius: 29px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.bottom{
+	background-color:  #232529;
+	color: white;
+	text-align: center;
+}
+h1{
+	font-size: 35px;
+}
+.cotor{
+	text-align: center;
+}
+.cotor>img{
+	text-align: center;
+}
+.cotor>ul>li{
+	text-align: left;
+}
+div.cotor>ul>li:nth-child(2) a{
+	background-color: forestgreen;
+	height: 28px;
+	width: 300px;
+	color: white;
+	border-radius: 9px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+div.cotor>ul>li:last-child a{
+	background-color: khaki;
+	height: 28px;
+	width: 350px;
+	color: black;
+	border-radius: 9px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.w3spaces>h3>a{
+	color: violet;
+};
+.w3spaces>ul:nth-child(2) li, .w3spaces>ul:nth-child(4) li, .mylearning>ul:nth-child(1) li, .premium>ul:nth-child(1) li, .cogame>ul:first-child li, .webtem>ul:first-child li, .kick>ul:last-child li, .section>ul:first-child li, .section>ul>li:nth-child(2) a{
+	float: inherit;
+}
+.mylearning{
+	background-color: #deeded;
+	text-align: center;
+	color: black;
+}
+.premium>h3{
+	color: pink;
+}
+.coker{
+	background-color: #f3f1f4;
+	color: black;
+}
+.cogame{
+	background-color:  #92d3ed;	
+}
+.xnq{
+	text-align: center;
+	border-spacing: 40px;
+}
+.webtem{
+	background-color: #f2e6ff;
+	text-align: center;
+	color: black;
+}
+.webtem>ul>li:last-child a, .section>ul>li:last-child a {
+	background-color: black;
+	height: 28px;
+	width: 180px;
+	color: white;
+	border-radius: 9px;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.kick{
+	text-align: left;
+	color: pink;
+}
+.kick>h1{
+	padding-left: 25px;
+}
+.section{
+	gap: 0;
+	background-color: white;
+	color: black;
+	padding: 0 10px 0 0;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+.section>ul>li:nth-child(2) a{
+	background-color: black;
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.blue{
+	color: oranges;
+	background-color: #007acc;
+}
+.white{
+	background-image: url("sebelas.png");
+}
+.white>img{
+	float: right;
+}
+.b1{
+
+	border-spacing: 20px;
+}
+.w1{
+	margin-left: 20px;
+	border-spacing: 20px;
+}
+.w2{
+	font-size: 19px;
+	margin-left: 40px;
+}
